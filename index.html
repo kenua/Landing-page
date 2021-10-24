@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="author" content="kenua">
+   <title>John's website</title>
+   <!--BOOTSTRAP-->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+   <!--FONTAWESOME-->
+   <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+   <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+   <!--GOOGLE FONTS-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+   <!--CUSTOM-->
+   <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="position-relative">
+   <!--MENU-->
+   <section id="menu" class="menu container px-5">
+      <div class="menu__button-container text-end d-block position-absolute">
+         <button type="button" id="close-menu" class="menu__button">
+            <span class="line"></span>
+            <span class="line"></span>
+         </button>
+      </div>
+      <nav>
+         <ul class="menu__list list-unstyled">
+            <li class="menu__list-item mb-4"> <a href="#my-work" class="menu__link fs-4 text-light text-uppercase text-decoration-none">My Work</a></li>
+            <li class="menu__list-item mb-4"> <a href="#skills" class="menu__link fs-4 text-light text-uppercase text-decoration-none">Skills</a></li>
+            <li class="menu__list-item mb-4"> <a href="#profile" class="menu__link fs-4 text-light text-uppercase text-decoration-none">Profile</a></li>
+            <li class="menu__list-item mb-4"> <a href="#pricing" class="menu__link fs-4 text-light text-uppercase text-decoration-none">Pricing</a></li>
+            <li class="menu__list-item mb-4"> <a href="#contact" class="menu__link fs-4 text-light text-uppercase text-decoration-none">Contact</a></li>
+         </ul>
+      </nav>
+   </section>
+
+   <!--#NAVIGATION-->
+   <nav class="navbar-2 py-3">
+      <div class="container">
+         <div class="row align-items-center">
+            <!--FIRST-->
+            <a href="#" class="navbar-brand m-0 text-dark col-2">John</a>
+            <!--SECOND-->
+            <ul class="navbar__socialmedia-list fs-4 col-8 col-md-9 text-center text-md-end">
+               <li class="socialmedia__item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+               <li class="socialmedia__item"><a href="#"><i class="fab fa-twitter"></i></a></li>
+               <li class="socialmedia__item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <!--THIRD-->
+            <div class="col-1">
+               <button type="button" id="menu-btn" class="navbar__btn ms-auto">
+                  <span class="line"></span>
+                  <span class="line"></span>
+                  <span class="line"></span>
+               </button>
+            </div>
+         </div>
+      </div>
+   </nav>      
+   <!--#INTRO-->
+   <section class="container-fluid intro">
+      <div class="row">
+         <!--CONTENT-->
+         <div class="row col">
+            <div class="intro__image col-md-6"></div>
+            <div class="intro__content p-5 col-md-6">
+               <h1 class="display-2 fw-bold">Hello, I’m John.</h1>
+               <p class="sub-heading fs-4 text-primary my-4">Graphic Designer</p>
+               <p>Sed efficitur arcu ac sapien pharetra, id feugiat dolor luctus. Aenean placerat mi eu enim porta dictum.</p>
+               <ul class="intro__list list-unstyled my-5">
+                  <li class="list__item mb-1"><p class="m-0 text-capitalize"><i class="bi bi-telephone-fill text-primary"></i> Phone: +123 456 789</p></li>
+                  <li class="list__item mb-1"><p class="m-0 text-capitalize"><i class="bi bi-envelope-fill text-primary"></i> Email: john@email.com</p></li>
+                  <li class="list__item mb-1"><p class="m-0 text-capitalize"><i class="bi bi-geo-alt-fill text-primary"></i> Address: Street 1234 num: 6543</p></li>
+                  <li class="list__item mb-1"><p class="m-0 text-capitalize"><i class="bi bi-calendar2-week-fill text-primary"></i> Date of birth: 1/2/1970</p></li>
+               </ul>
+               <a href="#" class="btn btn-lg bg-primary text-light rounded-3 px-5 py-3">Download CV <i class="bi bi-download"></i></a>
+            </div>
+         </div>
+         <!--PURPLE LINE-->
+         <div class="bg-primary col-1"></div>
+      </div>
+   </section>
+   <!--#CONCEPT-->
+   <section id="concept" class="container py-5 text-center concept">
+      <h2 class="display-5 fw-bold mb-5">Design and Concept Development</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum eum dignissimos voluptatibus quas, <br> maiores itaque quod sint distincti eos aliquid at magnam aut non id! Commodi?</p>
+      <!--LIST--> 
+      <div class="row text-start gy-5 mt-4">
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+
+         <div class="col-6 col-md-4">
+            <h3 class="text-primary sub-heading fw-bold fs-5 mb-4">Programming</h3>
+            <ul class="list-unstyled concept__list">
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+               <li class="text-capitalize"><i class="bi bi-plus-lg"></i>Product Mockup</li>
+            </ul>
+         </div>
+      </div>
+   </section>
+   <!--#MY WORK-->
+   <section id="my-work" class="bg-secondary py-5 text-center my-work">
+      <div class="container">
+         <h2 class="display-4 fw-bold mb-5 text-light">My Work</h2>
+         <p class="text-white-50 fst-italic">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus similique reprehenderit ex reiciendis itaque. Quos, unde? Magni dolorem quae illum  soluta vero deserunt repudiandae voluptates ducimus. Odit, sed itaque.</p>
+      </div>
+      <div class="container-fluid mt-5">
+         <!--LIST-->
+         <div class="row">
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">Color</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">Art</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">Food</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">Camera</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">I'm out of photos!</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">I'm out of photos!</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">I'm out of photos!</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">I'm out of photos!</h3>
+               </div>
+            </div>
+
+            <div class="work-box col-sm-6 col-md-4">
+               <div class="work__content">
+                  <h3 class="work__title display-6 fw-bold text-light">I'm out of photos!</h3>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--#SKILLS-->
+   <section id="skills" class="bg-secondary py-5">
+      <div class="container">
+         <div class="row gy-5">
+            <div class="col-lg-4">
+               <h2 class="sub-heading text-light fw-light">My Skills</h2>
+               <p class="display-3 fw-bold text-light">My Skills</p>
+               <p class="text-white-50 my-5 lh-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum perspiciatis quis cumque, odit nobis velit. Quibusdam corrupti dolorem recusandae qui, quasi ex unde doloremque! Eum ad unde mollitia officia. Vel?</p>
+               <a href="#" class="btn bg-primary text-light rounded-3 px-5 py-3">Resume <i class="bi bi-file-earmark-text"></i></a>
+            </div>
+            <div class="col-lg-4">
+               <ul class="list-unstyled text-white-50 fs-5">
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Brand Development & Advertising</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Direct-Response Marketing</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Search Marketing: SEO & PPC</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Digital Video & TV, including Super Bowl</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Streaming & Radio</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Out-of-Home</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Influencer Marketing: Podcast & YouTube</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Product </li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Email Marketing, Design & Dev</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Social Media (Paid & Organic)</li>
+               </ul>
+            </div>
+            <div class="col-lg-4">
+               <ul class="list-unstyled text-white-50 fs-5">
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Brand Development & Advertising</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Direct-Response Marketing</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Search Marketing: SEO & PPC</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Digital Video & TV, including Super Bowl</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Streaming & Radio</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Out-of-Home</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Influencer Marketing: Podcast & YouTube</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Product </li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Email Marketing, Design & Dev</li>
+                  <li class="text-capitalize"><i class="bi bi-dash"></i>Social Media (Paid & Organic)</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--#PROFILE-->
+   <section id="profile" class="container py-5 profile">
+      <div class="profile__content text-center">
+         <h2 class="display-2 fw-bold">Profile</h2>
+         <p class="fs-4 mb-5">I'm a creative graphic designer</p>
+         <div class="profile__bubble rounded-circle mb-5"></div>
+
+         <div class="bg-primary p-5 text-light">
+            <h3 class="display-6 fw-bold mb-3">About me</h3>
+            <p class="lh-lg">I am creative graphic designer. I am an expert in the Adobe Creative Suit and have worked with a varied myriad of clients. Connecting your ideas to customer perception & all the digital dots in between...</p>
+         </div>
+
+         <h3 class="display-6 my-5">Details</h3>
+         <ul class="list-unstyled fs-5">
+            <li>
+               <p class="mb-0">
+                  <span class="d-inline-block mb-3"><strong>Name:</strong></span><br> <span class="d-inline-block mb-3">John Doe</span>
+               </p>     
+            </li>
+            <li>
+               <p class="mb-0">
+                  <span class="d-inline-block mb-3"><strong>Age:</strong></span><br> <span class="d-inline-block mb-3">30 years</span> 
+               </p>     
+            </li>
+            <li>
+               <p class="mb-0">
+                  <span class="d-inline-block mb-3"><strong>Location:</strong></span><br> <span class="d-inline-block mb-3">121 Rock Sreet, 21 Avenue,New York, NY 92103-9000</span> 
+               </p>     
+            </li>
+         </ul>
+         <ul class="list-unstyled fs-4 text-center">
+            <li class="d-inline-block me-2"><a href="#" class="text-dark"><i class="fab fa-facebook"></i></a></li>
+            <li class="d-inline-block me-2"><a href="#" class="text-dark"><i class="fab fa-twitter"></i></a></li>
+            <li class="d-inline-block"><a href="#" class="text-dark"><i class="fab fa-instagram"></i></a></li>
+         </ul>
+      </div>
+   </section>
+   <!--#PRICING-->
+   <section id="pricing" class="pricing">
+      <!--CARDS-->
+      <div class="bg-primary py-5 text-light text-center">      
+         <div class="container">
+            <h2 class="display-2 fw-bold">Pricing Table</h2>
+            <p class="mt-4 mb-5">Lorem ipsum dolor elit. Error molestiae quia soluta ut ab! Nisi praesentium earum quasi aut iste, facere quod reiciendis laboriosam.</p>
+
+            <div class="row g-3">
+               <!--FIRST-->
+               <div class="col-lg-4">
+                  <div class="bg-light p-5 text-black-50">
+                     <h3 class="display-6 fw-bold text-primary">Basic</h3>
+                     <h3 class="display-3 fw-bold text-primary my-4">$19.99</h3>
+                     <p>It contains</p>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Themes</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Color theory</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">100% responsive</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Smoth iterations</li>
+                     </ul>
+                     <div class="pricing__border my-4 py-4">
+                        <button type="button" class="pricing__btn btn btn-outline-primary btn-lg border-3 rounded-0 px-5"><i class="bi bi-arrow-right"></i></button>
+                     </div>
+                  </div>
+               </div>
+               <!--SECOND-->
+               <div class="col-lg-4">
+                  <div class="bg-light p-5 text-black-50 pricing__important">
+                     <h3 class="display-6 fw-bold text-primary">Pro</h3>
+                     <h3 class="display-3 fw-bold text-primary my-4">$102.99</h3>
+                     <p>It contains</p>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Themes</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Color theory</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">100% responsive</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Smoth iterations</li>
+                     </ul>
+                     <div class="pricing__border my-4 py-4">
+                        <button type="button" class="pricing__btn btn btn-primary btn-lg border-3 rounded-0 px-5"><i class="bi bi-arrow-right"></i></button>
+                     </div>
+                  </div>
+               </div>
+               <!--THIRD-->
+               <div class="col-lg-4">
+                  <div class="bg-light p-5 text-black-50">
+                     <h3 class="display-6 fw-bold text-primary">Advance</h3>
+                     <h3 class="display-3 fw-bold text-primary my-4">$59.99</h3>
+                     <p>It contains</p>
+                     <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Themes</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Color theory</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">100% responsive</li>
+                        <li class="list-group-item bg-transparent text-black-50 py-3">Smoth iterations</li>
+                     </ul>
+                     <div class="pricing__border my-4 py-4">
+                        <button type="button" class="pricing__btn btn btn-outline-primary btn-lg border-3 rounded-0 px-5"><i class="bi bi-arrow-right"></i></button>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--NUMBER BOXES-->
+      <div class="pricing__customers py-5">
+         <div class="container">
+            <div class="row g-3">
+               <!--FIRST-->
+               <div class="col-md-3">
+                  <div class="pricing__number-box">
+                     <div class="pricing__number display-6 fw-bold">100</div>
+                     <p class="pricing__text fs-5">Happy customers</p>
+                  </div>
+               </div>
+               <!--FIRST-->
+               <div class="col-md-3">
+                  <div class="pricing__number-box">
+                     <div class="pricing__number display-6 fw-bold">50</div>
+                     <p class="pricing__text">Projects completed</p>
+                  </div>
+               </div>
+               <!--FIRST-->
+               <div class="col-md-3">
+                  <div class="pricing__number-box">
+                     <div class="pricing__number display-6 fw-bold">65</div>
+                     <p class="pricing__text">cups of coffee</p>
+                  </div>
+               </div>
+               <!--FIRST-->
+               <div class="col-md-3">
+                  <div class="pricing__number-box">
+                     <div class="pricing__number display-6 fw-bold">12</div>
+                     <p class="pricing__text">awards</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!--CONTACT-->
+   <section id="contact" class="newsletter container py-5">
+      <div class="row">
+         <div class="text-primary col-md-6">
+            <h2 class="sub-heading fs-4 fw-light">Join my newsletter</h2>
+            <p class="display-6 fw-bold">lorem ipsun dolor sit met abor te mi laraposo der bú.</p>
+            <p class="fs-5 my-5">121 Rock Sreet, 21 Avenue,New York<br>
+               Mon – Fri: 9:00 am – 8:00 pm,<br>
+               Sat – Sun: 9:00 am – 10 pm<br>
+               <a href="#" class="fw-bold">contact@email.com</a>
+            </p>
+            <h3 class="display-6 fw-bold">Follow Us</h3>
+            <ul class="list-unstyled fs-3 my-5">
+               <li class="d-inline-block me-2"><a href="#" class="text-primary"><i class="fab fa-facebook"></i></a></li>
+               <li class="d-inline-block me-2"><a href="#" class="text-primary"><i class="fab fa-twitter"></i></a></li>
+               <li class="d-inline-block"><a href="#" class="text-primary"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+            <p class="text-primary">&copy; Privacy Policy</p>
+         </div>
+         <div class="newsletter__contact col-md-6">
+            <h2 class="display-2 text-primary mb-4">Contact Me</h2>
+            <form>
+               <input type="text" placeholder="Enter Your Name" class="form-control rounded-0 border-0">
+               <input type="text" placeholder="Enter A Valid Email Address" class="form-control my-4 rounded-0 border-0">
+               <textarea id="" cols="30" rows="10" placeholder="Enter Your Message" class="form-control rounded-0 border-0"></textarea>
+               <p class="text-end mt-4">
+                  <button type="button" class="btn btn-lg btn-primary border-3 rounded-0 px-5 text-light fw-bold">Submit</button>
+               </p>
+            </form>
+         </div>
+      </div>
+   </section>
+   <!--FOOTER-->
+   <section class="footer p-5 text-center text-light">
+      <p>&copy;John</p>
+   </section>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="scripts/dom.js"></script>
+</body>
+</html>

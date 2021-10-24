@@ -1,0 +1,35 @@
+@use '../custom';
+
+.menu {
+   background-color: #000000de;
+   width: 100%;
+   height: 100vh;
+   min-height: 700px;
+   padding-top: 72px;
+   position: fixed;
+   top: 0;
+   left: -100%;
+   z-index: 100;
+   transition: left 500ms ease;
+
+   &__link {
+      transition: padding-left 300ms ease;
+      &:hover {
+         padding-left: 10px;
+      }
+   }
+
+   &--open {
+      left: 0;
+   }
+
+   @include custom.media-breakpoint-up(md) {
+      width: 500px;
+   }
+
+   &__button-container {
+      width: 100%;
+      top: 16px;
+      right: 16px;
+   }
+}

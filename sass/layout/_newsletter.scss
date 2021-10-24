@@ -1,0 +1,8 @@
+@use '../custom';
+
+.newsletter {
+   &__contact {
+      background-color: custom.$gray-100;
+      padding: 90px 50px;
+   }
+}

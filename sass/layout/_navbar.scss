@@ -1,0 +1,33 @@
+@use 'sass:color';
+@use '../custom' as *;
+
+.navbar, .navbar-2 {
+   .navbar__socialmedia-list {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+   }
+
+   .socialmedia__item {
+      display: inline-block;
+      margin-right: 0.5rem;
+
+      &:hover {
+         opacity: .7;
+      }
+
+      &:last-child {
+         margin-right: 0;
+      }
+   }
+
+   .fa-facebook {
+      color: $blue;
+   }
+   .fa-twitter {
+      color: color.adjust($blue, $whiteness: 50%, $blackness: 0%);
+   }
+   .fa-intagram {
+      color: $pink;
+   }
+}

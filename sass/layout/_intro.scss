@@ -1,0 +1,18 @@
+@use '../custom';
+
+.intro {
+   & > .row {
+      min-height: 600px;
+   }
+
+   &__image {
+      background-image: url('../images/people/john.jpg');
+      background-position: center -100px;
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      @include custom.media-breakpoint-down(md) {
+         height: 500px;
+      }
+   }
+}

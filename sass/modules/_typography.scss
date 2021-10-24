@@ -1,0 +1,17 @@
+@for $i from 1 through 6 {
+   .display-#{$i} {
+      font-family: 'Oswald', sans-serif;
+      letter-spacing: 1px;
+      line-height: 1;
+   }
+}
+
+.sub-heading {
+   font-family: 'Nunito', sans-serif;
+   line-height: 1;
+}
+
+.menu__link {
+   font-family: 'Nunito', sans-serif;
+   line-height: 1;
+}

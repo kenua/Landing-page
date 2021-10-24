@@ -1,0 +1,5 @@
+@use '../custom';
+
+.footer {
+   background-color: custom.$gray-800;
+}

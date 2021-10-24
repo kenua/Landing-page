@@ -1,0 +1,20 @@
+@use '../modules/mixins';
+@use '../custom';
+
+.profile {
+   &__bubble {
+      @include mixins.center-bgi;
+      background-image: url('../images/people/john.jpg');
+      width: 100%;
+      max-width: 300px;
+      height: 300px;
+      margin: 0 auto;
+   }
+
+   &__content {
+      @include custom.media-breakpoint-up(md) {
+         width: 70%;
+         margin: 0 auto;
+      }
+   }
+}
